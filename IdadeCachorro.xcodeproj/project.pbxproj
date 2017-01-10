@@ -9,18 +9,17 @@
 /* Begin PBXBuildFile section */
 		4B0127641E248160000CE773 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B0127631E248160000CE773 /* readme.md */; };
 		4B0127661E2481A1000CE773 /* print.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4B0127651E2481A1000CE773 /* print.PNG */; };
-		4BBBD6481E2432C300D9A6BC /* cute-dog-icon-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */; };
 		4BC36A1A1E22FF5900A2F1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */; };
 		4BC36A1C1E22FF5900A2F1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */; };
 		4BC36A1F1E22FF5900A2F1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A1D1E22FF5900A2F1FC /* Main.storyboard */; };
 		4BC36A211E22FF5900A2F1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A201E22FF5900A2F1FC /* Assets.xcassets */; };
 		4BC36A241E22FF5900A2F1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A221E22FF5900A2F1FC /* LaunchScreen.storyboard */; };
+		4BEC06FB1E258C7E00A47DF1 /* cute-dog-icon-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B0127631E248160000CE773 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		4B0127651E2481A1000CE773 /* print.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = print.PNG; sourceTree = "<group>"; };
-		4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cute-dog-icon-png-26.png"; path = "../../../Downloads/cute-dog-icon-png-26.png"; sourceTree = "<group>"; };
 		4BC36A161E22FF5900A2F1FC /* IdadeCachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdadeCachorro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		4BC36A201E22FF5900A2F1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC36A231E22FF5900A2F1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC36A251E22FF5900A2F1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cute-dog-icon-png-26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		4BC36A181E22FF5900A2F1FC /* IdadeCachorro */ = {
 			isa = PBXGroup;
 			children = (
-				4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */,
+				4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */,
 				4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */,
 				4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */,
 				4BC36A1D1E22FF5900A2F1FC /* Main.storyboard */,
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0127661E2481A1000CE773 /* print.PNG in Resources */,
-				4BBBD6481E2432C300D9A6BC /* cute-dog-icon-png-26.png in Resources */,
+				4BEC06FB1E258C7E00A47DF1 /* cute-dog-icon-png-26.png in Resources */,
 				4BC36A241E22FF5900A2F1FC /* LaunchScreen.storyboard in Resources */,
 				4BC36A211E22FF5900A2F1FC /* Assets.xcassets in Resources */,
 				4BC36A1F1E22FF5900A2F1FC /* Main.storyboard in Resources */,
