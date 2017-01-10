@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BBBD6481E2432C300D9A6BC /* cute-dog-icon-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */; };
 		4BC36A1A1E22FF5900A2F1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */; };
 		4BC36A1C1E22FF5900A2F1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */; };
 		4BC36A1F1E22FF5900A2F1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A1D1E22FF5900A2F1FC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cute-dog-icon-png-26.png"; path = "../../../Downloads/cute-dog-icon-png-26.png"; sourceTree = "<group>"; };
 		4BC36A161E22FF5900A2F1FC /* IdadeCachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdadeCachorro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		4BC36A181E22FF5900A2F1FC /* IdadeCachorro */ = {
 			isa = PBXGroup;
 			children = (
+				4BBBD6471E2432C300D9A6BC /* cute-dog-icon-png-26.png */,
 				4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */,
 				4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */,
 				4BC36A1D1E22FF5900A2F1FC /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					4BC36A151E22FF5800A2F1FC = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MH8HNXC5B8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBBD6481E2432C300D9A6BC /* cute-dog-icon-png-26.png in Resources */,
 				4BC36A241E22FF5900A2F1FC /* LaunchScreen.storyboard in Resources */,
 				4BC36A211E22FF5900A2F1FC /* Assets.xcassets in Resources */,
 				4BC36A1F1E22FF5900A2F1FC /* Main.storyboard in Resources */,
@@ -260,6 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MH8HNXC5B8;
 				INFOPLIST_FILE = IdadeCachorro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.assemany.IdadeCachorro;
@@ -272,6 +280,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MH8HNXC5B8;
 				INFOPLIST_FILE = IdadeCachorro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.assemany.IdadeCachorro;
@@ -299,6 +310,7 @@
 				4BC36A2A1E22FF5900A2F1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
