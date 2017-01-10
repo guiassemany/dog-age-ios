@@ -8,6 +8,8 @@
 
 import UIKit
 
+import AVFoundation
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -21,11 +23,16 @@ class ViewController: UIViewController {
         btnLimpar.isHidden = true
     }
     
+    @IBAction func btnDog(_ sender: Any) {
+        playSound();
+    }
+    
     @IBOutlet weak var txtIdade: UITextField!
     @IBOutlet weak var lblResultado: UILabel!
     @IBOutlet weak var idadeDog: UILabel!
     @IBOutlet weak var lblFooter: UILabel!
     @IBOutlet weak var btnLimpar: UIButton!
+       var player: AVAudioPlayer?
     
     @IBAction func Limpar(_ sender: Any) {
         idadeDog.isHidden = true
@@ -52,7 +59,22 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
         return
     }
-
+    
+    func playSound() {
+        let url = Bundle.main.url(forResource: "dog_sound", withExtension: "mp3")!
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

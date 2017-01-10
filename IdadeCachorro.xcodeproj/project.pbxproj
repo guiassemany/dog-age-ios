@@ -15,6 +15,7 @@
 		4BC36A211E22FF5900A2F1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A201E22FF5900A2F1FC /* Assets.xcassets */; };
 		4BC36A241E22FF5900A2F1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC36A221E22FF5900A2F1FC /* LaunchScreen.storyboard */; };
 		4BEC06FB1E258C7E00A47DF1 /* cute-dog-icon-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */; };
+		4BEC06FF1E259F9A00A47DF1 /* dog_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BEC06FE1E259F9A00A47DF1 /* dog_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4BC36A231E22FF5900A2F1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC36A251E22FF5900A2F1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cute-dog-icon-png-26.png"; sourceTree = "<group>"; };
+		4BEC06FE1E259F9A00A47DF1 /* dog_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		4BC36A181E22FF5900A2F1FC /* IdadeCachorro */ = {
 			isa = PBXGroup;
 			children = (
+				4BEC06FE1E259F9A00A47DF1 /* dog_sound.mp3 */,
 				4BEC06FA1E258C7E00A47DF1 /* cute-dog-icon-png-26.png */,
 				4BC36A191E22FF5900A2F1FC /* AppDelegate.swift */,
 				4BC36A1B1E22FF5900A2F1FC /* ViewController.swift */,
@@ -138,6 +141,7 @@
 				4BC36A241E22FF5900A2F1FC /* LaunchScreen.storyboard in Resources */,
 				4BC36A211E22FF5900A2F1FC /* Assets.xcassets in Resources */,
 				4BC36A1F1E22FF5900A2F1FC /* Main.storyboard in Resources */,
+				4BEC06FF1E259F9A00A47DF1 /* dog_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
